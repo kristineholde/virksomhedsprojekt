@@ -1,3 +1,16 @@
+p{
+    color: #1d3fb3;
+    text-align: center;
+    margin: 150px;
+    padding: 1px;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 10px;
+}
+
 footer{
     text-align: center;
     padding: 5%;
