@@ -5,6 +5,10 @@ p{
 
 }
 
+body{
+    font-family: 'Cormorant Garamond';
+}
+
 header nav ul li a{
     text-decoration: none;
 }
