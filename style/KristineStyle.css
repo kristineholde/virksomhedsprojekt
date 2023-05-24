@@ -1,30 +1,58 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Style the header */
-header {
-    background-color: #1a03af;
-    color: #fff;
-    padding: 20px;
+p{
+    color: #1d3fb3;
     text-align: center;
+    margin: 120px;
+
 }
 
-/* Style the navigation */
-nav ul {
-    list-style-type: none;
-    background-color: #f4f4f4;
-    padding: 10px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+header nav ul li a{
     text-decoration: none;
-    padding: 10px;
-    color: #333;
+}
+
+ul{
+    width: 100%;
+    color: #1d3fb3;
+
+}
+
+header li{
+    display: block;
+    text-align: center;
+    display: block;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    color: 1d3fb3;
+    padding: 20px;
+}
+
+header nav ul li{
+    margin: 0 40px;
+}
+
+li a{
+    color: #1d3fb3;
+
+}
+
+
+footer{
+    text-align: center;
+    padding: 5%;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container img{
+    max-width: 60%;
+    max-height: 60%;
+    
 }
