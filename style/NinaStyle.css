@@ -1,12 +1,15 @@
 p{
     color: #1d3fb3;
     text-align: center;
-    margin: 120px;
+    margin: 130px;
+    padding: 1px;
+
 
 }
 
 body{
     font-family: 'Cormorant Garamond';
+    margin-bottom: 10px;
 }
 
 header nav ul li a{
