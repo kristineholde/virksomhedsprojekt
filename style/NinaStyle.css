@@ -1,14 +1,43 @@
 p{
     color: #1d3fb3;
-    margin: 80px;
     text-align: center;
+    margin: 120px;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
 }
 
 ul{
     width: 100%;
-    color: 1d3fb3;
+    color: #1d3fb3;
 
 }
+
+header li{
+    display: block;
+    text-align: center;
+    display: block;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    color: 1d3fb3;
+    padding: 20px;
+}
+
+header nav ul li{
+    margin: 0 40px;
+}
+
+li a{
+    color: #1d3fb3;
+
+}
+
 
 footer{
     text-align: center;
