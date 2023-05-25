@@ -1,7 +1,7 @@
 p {
     color: #1d3fb3;
     text-align: center;
-    margin: 130px;
+    margin: 120px;
     padding: 1px;
     font-size: 20px;
 }
@@ -10,12 +10,10 @@ body {
     font-family: 'Cormorant Garamond';
     margin-bottom: 10px;
     font-weight: 500;
-
 }
 
 header nav ul li a {
     text-decoration: none;
-
 }
 
 ul {
@@ -27,15 +25,13 @@ header li {
     display: block;
     text-align: center;
     display: block;
-
 }
 
 header ul {
     display: flex;
     justify-content: center;
     color: #1d3fb3;
-    padding: 40px;
-
+    padding: 20px;
 }
 
 header nav ul li {
