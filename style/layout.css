@@ -26,9 +26,7 @@
     .figur1,
     .figur2,
     .figur3,
-    .førstep,
-    .andenp,
-    .tredjep
+    .paragraf
      {
         grid-template-columns: 1fr;
     }
