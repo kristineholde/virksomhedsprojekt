@@ -1,4 +1,4 @@
-p{
+p {
     color: #1d3fb3;
     text-align: center;
     margin: 130px;
@@ -6,32 +6,31 @@ p{
     font-size: 20px;
 }
 
-body{
+body {
     font-family: 'Cormorant Garamond';
     margin-bottom: 10px;
     font-weight: 500;
 
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
 
 }
 
-ul{
+ul {
     width: 100%;
     color: #1d3fb3;
-
 }
 
-header li{
+header li {
     display: block;
     text-align: center;
     display: block;
 
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: center;
     color: #1d3fb3;
@@ -39,29 +38,111 @@ header ul{
 
 }
 
-header nav ul li{
+header nav ul li {
     margin: 0 40px;
 }
 
-li a{
+li a {
     color: #1d3fb3;
     font-size: 20px;
 
 }
 
-footer{
+footer {
     text-align: center;
     padding: 5%;
 }
 
-.container{
+.container {
     display: flex;
     text-align: center;
     justify-content: center;
     height: 100vh;
 }
 
-.container img{
+.container img {
     max-width: 60%;
-    max-height: 60%; 
+    max-height: 60%;
 }
+
+.carousel-wrapper {
+    overflow: hidden;
+    width: 90%;
+}
+
+.carousel-wrapper * {
+    box-sizing: border-box;
+}
+
+.carousel {
+    transform-style: preserve-3d;
+}
+
+.carousel__photo {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 4rem;
+    z-index: 100;
+    transition: transform .5s, opacity .5s, z-index .5s;
+}
+
+.carousel__photo.initial,
+.carousel__photo-active {
+    opacity: 1;
+    position: relative;
+    z-index: 900;
+}
+
+.carousel__photo.prev,
+.carousel__photo.next {
+    z-index: 800;
+}
+
+.carousel__photo.prev{
+    transform: translateX(-100%); /* Move 'prev' item to the left */
+}
+
+.carousel__photo.next{
+    transform: translateX(100%); /* Move 'next' item to the right */
+}
+
+.carousel__button--prev,
+.carousel__button--next {
+  position: absolute;
+  top:50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: #FFF;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  cursor: pointer; 
+  z-index: 1001; /* Sit on top of everything */
+  border: 1px solid black;
+}
+.carousel__button--prev {
+  left:0;
+}
+.carousel__button--next {
+  right:0;
+}
+.carousel__button--prev::after,
+.carousel__button--next::after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 54%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.carousel__button--next::after {
+  left: 47%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
