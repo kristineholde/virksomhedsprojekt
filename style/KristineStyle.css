@@ -76,7 +76,23 @@ img{
       
 }
   
-.Nav { grid-area: Nav; }
+.Nav { 
+    grid-area: Nav;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+ 
+}
+
+.logo {
+    width: 70px;
+    height: 75x;
+    grid-area: Nav;
+
+}
+
   
 .figur3 {
     justify-self: center;
@@ -109,4 +125,7 @@ img{
     align-self: center;
     grid-area: figur2;
     display: flex;}
+
+
+
   
