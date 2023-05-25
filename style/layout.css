@@ -18,4 +18,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr; 
 }
 
+@media(max-width:800px){
+    .billede1, billede2{
+grid-template-columns: 1fr;
+    }
+}
 
