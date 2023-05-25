@@ -2,12 +2,15 @@ p{
     color: #1d3fb3;
     text-align: center;
     margin: 120px;
+    padding: 1px;
+    font-size: 20px;
 
 }
 
 body{
     font-family: 'Cormorant Garamond';
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 header nav ul li a{
@@ -40,6 +43,7 @@ header nav ul li{
 
 li a{
     color: #1d3fb3;
+    font-size: 20px;
 
 }
 
@@ -72,7 +76,23 @@ img{
       
 }
   
-.Nav { grid-area: Nav; }
+.Nav { 
+    grid-area: Nav;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+ 
+}
+
+.logo {
+    width: 70px;
+    height: 75x;
+    grid-area: Nav;
+
+}
+
   
 .figur3 {
     justify-self: center;
@@ -105,4 +125,7 @@ img{
     align-self: center;
     grid-area: figur2;
     display: flex;}
+
+
+
   
