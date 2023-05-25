@@ -86,6 +86,13 @@ img{
  
 }
 
+
+.Nav a:hover{
+    color: #183696;
+}
+
+
+
 .logo {
     width: 70px;
     height: 75x;
