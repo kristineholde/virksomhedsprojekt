@@ -5,6 +5,11 @@ p{
 
 }
 
+body{
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 10px;
+}
+
 header nav ul li a{
     text-decoration: none;
 }
@@ -65,41 +70,39 @@ img{
       ". . . . .";
       justify-content: space-around;
       
-  }
+}
   
-  .Nav { grid-area: Nav; }
+.Nav { grid-area: Nav; }
   
-  .figur3 {
+.figur3 {
     justify-self: center;
     align-self: center;
     grid-area: figur3;
     display: flex;
 
-    }
+}
   
-  .vinmenu {
+.vinmenu {
     justify-self: center;
     align-self: start;
     grid-area: vinmenu;
     justify-items: auto;
     text-align: center;
    
-  }
+}
   
-  .figur1 {
+.figur1 {
     display: flex;
     align-self: center;
     grid-area: figur1;
     align-items: center;
    
 
-  }
+}
   
-  .figur2 {
+.figur2 {
     justify-self: center;
     align-self: center;
     grid-area: figur2;
-    display: flex;
-    
-  }
+    display: flex;}
   
