@@ -21,10 +21,6 @@
 @media(max-width:950px) {
 
     .billeder,
-    .vinmenu,
-    .figur1,
-    .figur2,
-    .figur3,
     .paragraf
      {
         grid-template-columns: 1fr;
