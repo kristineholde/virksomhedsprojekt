@@ -87,8 +87,25 @@ img{
 }
 
 
-.Nav a:hover{
-    color: #183696;
+/* Hover effekt */
+
+a:link {
+    color: #1d3fb3;
+}
+  
+  /* visited link */
+a:visited {
+    color: #1d3fb3;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: #ff5101;
+}
+  
+  /* selected link */
+a:active {
+    color: yellow;
 }
 
 
@@ -96,7 +113,6 @@ img{
 .logo {
     width: 70px;
     height: 75x;
-    grid-area: Nav;
 
 }
 
