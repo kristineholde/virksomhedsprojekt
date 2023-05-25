@@ -1,26 +1,31 @@
-.grid_1-1{
+.grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.grid_2-1{
+.grid_2-1 {
     display: grid;
-    grid-template-columns: 2fr 1fr; 
+    grid-template-columns: 2fr 1fr;
 }
 
-.grid_1-1-1{
+.grid_1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid_1-1-1-1{
+.grid_1-1-1-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media(max-width:800px){
-    .billede1, billede2{
-grid-template-columns: 1fr;
+@media(max-width:800px) {
+
+    .billede1,
+    .billede2,
+    .vinmenu,
+    .figur1,
+    .figur2,
+    .figur3 {
+        grid-template-columns: 1fr;
     }
 }
-
