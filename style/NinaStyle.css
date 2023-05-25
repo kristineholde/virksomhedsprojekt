@@ -1,9 +1,9 @@
 p{
     color: #1d3fb3;
     text-align: center;
-    margin: 150px;
+    margin: 130px;
     padding: 1px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 body{
@@ -43,6 +43,8 @@ header nav ul li{
 
 li a{
     color: #1d3fb3;
+    font-size: 20px;
+
 }
 
 footer{
