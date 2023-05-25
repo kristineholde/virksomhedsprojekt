@@ -12,6 +12,7 @@ body {
     font-weight: 500;
 }
 
+/*
 header nav ul li a {
     text-decoration: none;
 }
@@ -43,6 +44,49 @@ li a {
     font-size: 20px;
 
 }
+
+*/
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+  
+  .navigation li:first-child {
+    margin-left: 0;
+  }
+  
+  .navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .logo {
+    margin-left: 40px;
+  }
+  
+  .logo img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+
+  }
+
 
 footer {
     text-align: center;
