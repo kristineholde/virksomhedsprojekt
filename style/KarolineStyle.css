@@ -43,3 +43,12 @@ header ul{
     color: #1d3fb3;
     padding: 20px;
 }
+
+header nav ul li{
+    margin: 0 40px;
+}
+
+li a{
+    color: #1d3fb3;
+
+}
