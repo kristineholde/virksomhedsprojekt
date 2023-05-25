@@ -9,6 +9,8 @@ p{
 body{
     font-family: 'Cormorant Garamond';
     margin-bottom: 10px;
+    font-weight: 500;
+
 }
 
 header nav ul li a{
