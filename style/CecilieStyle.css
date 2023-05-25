@@ -118,6 +118,8 @@ footer {
     max-height: 70%;
 }
 
+/*
+
 header {
     position: relative;
     background-color: rgb(149, 149, 149);
@@ -168,14 +170,16 @@ header {
     }
   }
 
+*/
 
-
+  /*
 .logo {
     width: 70px;
     height: 75x;
     grid-area: Nav;
 
 }
+*/
 
 /* Hover effekt */
 
@@ -196,4 +200,23 @@ a:hover {
   /* selected link */
 a:active {
     color: #ff5101;;
+}
+
+/* VIDEO */
+
+.video-container {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
