@@ -123,3 +123,12 @@ header {
       display: none;
     }
   }
+
+
+
+.logo {
+    width: 70px;
+    height: 75x;
+    grid-area: Nav;
+
+}
