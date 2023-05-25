@@ -3,7 +3,7 @@ p{
     text-align: center;
     margin: 150px;
     padding: 1px;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 body{
@@ -13,11 +13,13 @@ body{
 
 header nav ul li a{
     text-decoration: none;
+
 }
 
 ul{
     width: 100%;
     color: #1d3fb3;
+
 }
 
 header li{
@@ -32,6 +34,7 @@ header ul{
     justify-content: center;
     color: #1d3fb3;
     padding: 20px;
+
 }
 
 header nav ul li{
@@ -41,7 +44,6 @@ header nav ul li{
 li a{
     color: #1d3fb3;
 }
-
 
 footer{
     text-align: center;
