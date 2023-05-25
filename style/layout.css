@@ -25,7 +25,11 @@
     .vinmenu,
     .figur1,
     .figur2,
-    .figur3 {
+    .figur3,
+    .førstep,
+    .andenp,
+    .tredjep
+     {
         grid-template-columns: 1fr;
     }
 }
