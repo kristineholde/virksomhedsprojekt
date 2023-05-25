@@ -61,3 +61,25 @@ li a{
     grid-area: Nav;
 
 }
+
+
+/* Hover effekt */
+
+a:link {
+    color: #1d3fb3;
+}
+  
+  /* visited link */
+a:visited {
+    color: #1d3fb3;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: #ff5101;
+}
+  
+  /* selected link */
+a:active {
+    color: #ff5101;;
+}
