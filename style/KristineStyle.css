@@ -2,12 +2,15 @@ p{
     color: #1d3fb3;
     text-align: center;
     margin: 120px;
+    padding: 1px;
+    font-size: 20px;
 
 }
 
 body{
     font-family: 'Cormorant Garamond';
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 header nav ul li a{
@@ -40,6 +43,7 @@ header nav ul li{
 
 li a{
     color: #1d3fb3;
+    font-size: 20px;
 
 }
 
