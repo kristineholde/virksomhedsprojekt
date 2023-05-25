@@ -1,15 +1,15 @@
 p {
-    color: #1d3fb3;
-    text-align: center;
-    margin: 120px;
-    padding: 1px;
-    font-size: 20px;
+  color: #1d3fb3;
+  text-align: center;
+  margin: 120px;
+  padding: 1px;
+  font-size: 20px;
 }
 
 body {
-    font-family: 'Cormorant Garamond';
-    margin-bottom: 10px;
-    font-weight: 500;
+  font-family: 'Cormorant Garamond';
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
 /*
@@ -49,125 +49,133 @@ li a {
 
 
 .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-  }
-  
-  .navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigation li {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 50px;
-  }
-  
-  .navigation li:first-child {
-    margin-left: 0;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
 
-  .logo {
-    margin-left: 40px;
-  }
-  
-  .logo img {
-    width: 80px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  }
+.navigation li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.logo img {
+  width: 80px;
+  /* Adjust the size as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+
+}
 
 
 footer {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .container img {
-    max-width: 60%;
-    max-height: 60%;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 .carousel-wrapper {
-    overflow: hidden;
-    width: 90%;
+  overflow: hidden;
+  width: 90%;
 }
 
 .carousel-wrapper * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .carousel {
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .carousel__photo {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    margin: auto;
-    padding: 1rem 4rem;
-    z-index: 100;
-    transition: transform .5s, opacity .5s, z-index .5s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 4rem;
+  z-index: 100;
+  transition: transform .5s, opacity .5s, z-index .5s;
 }
 
 .carousel__photo.initial,
 .carousel__photo-active {
-    opacity: 1;
-    position: relative;
-    z-index: 900;
+  opacity: 1;
+  position: relative;
+  z-index: 900;
 }
 
 .carousel__photo.prev,
 .carousel__photo.next {
-    z-index: 800;
+  z-index: 800;
 }
 
-.carousel__photo.prev{
-    transform: translateX(-100%); /* Move 'prev' item to the left */
+.carousel__photo.prev {
+  transform: translateX(-100%);
+  /* Move 'prev' item to the left */
 }
 
-.carousel__photo.next{
-    transform: translateX(100%); /* Move 'next' item to the right */
+.carousel__photo.next {
+  transform: translateX(100%);
+  /* Move 'next' item to the right */
 }
 
 .carousel__button--prev,
 .carousel__button--next {
   position: absolute;
-  top:50%;
+  top: 50%;
   width: 3rem;
   height: 3rem;
   background-color: #FFF;
   transform: translateY(-50%);
   border-radius: 50%;
-  cursor: pointer; 
-  z-index: 1001; /* Sit on top of everything */
+  cursor: pointer;
+  z-index: 1001;
+  /* Sit on top of everything */
   border: 1px solid black;
 }
+
 .carousel__button--prev {
-  left:0;
+  left: 0;
 }
+
 .carousel__button--next {
-  right:0;
+  right: 0;
 }
+
 .carousel__button--prev::after,
 .carousel__button--next::after {
   content: " ";
@@ -180,6 +188,7 @@ footer {
   border-bottom: 2px solid black;
   transform: translate(-50%, -50%) rotate(135deg);
 }
+
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg);
@@ -187,9 +196,9 @@ footer {
 
 
 .logo {
-    width: 70px;
-    height: 75x;
-    grid-area: Nav;
+  width: 70px;
+  height: 75x;
+  grid-area: Nav;
 
 }
 
@@ -197,21 +206,21 @@ footer {
 /* Hover effekt */
 
 a:link {
-    color: #1d3fb3;
-}
-  
-  /* visited link */
-a:visited {
-    color: #1d3fb3;
-}
-  
-  /* mouse over link */
-a:hover {
-    color: #ff5101;
-}
-  
-  /* selected link */
-a:active {
-    color: #ff5101;;
+  color: #1d3fb3;
 }
 
+/* visited link */
+a:visited {
+  color: #1d3fb3;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff5101;
+}
+
+/* selected link */
+a:active {
+  color: #ff5101;
+  ;
+}
