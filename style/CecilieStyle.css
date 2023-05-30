@@ -12,7 +12,17 @@ h1{
     margin: 130px;
     padding: 1px;
     font-size: 30px;
+    font-style: bold;
 
+}
+
+h2{
+  color: #1d3fb3;
+  text-align: center;
+  margin: 130px;
+  padding: 1px;
+  font-size: 30px;
+  font-style: bold;
 }
 
 body {
