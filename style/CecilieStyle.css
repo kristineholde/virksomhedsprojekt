@@ -1,22 +1,22 @@
 p {
-    color: #1d3fb3;
-    text-align: center;
-    margin: 130px;
-    padding: 1px;
-    font-size: 20px;
+  color: #1d3fb3;
+  text-align: center;
+  margin: 130px;
+  padding: 1px;
+  font-size: 20px;
 }
 
-h1{
-    color: #1d3fb3;
-    text-align: center;
-    margin: 130px;
-    padding: 1px;
-    font-size: 30px;
-    font-style: bold;
+h1 {
+  color: #1d3fb3;
+  text-align: center;
+  margin: 130px;
+  padding: 1px;
+  font-size: 30px;
+  font-style: bold;
 
 }
 
-h2{
+h2 {
   color: #1d3fb3;
   text-align: center;
   margin: 130px;
@@ -26,13 +26,13 @@ h2{
 }
 
 body {
-    font-family: 'Cormorant Garamond';
-    margin-bottom: 10px;
-    font-weight: 500;
+  font-family: 'Cormorant Garamond';
+  margin-bottom: 10px;
+  font-weight: 500;
 
 }
 
-.col3{
+.col3 {
   font-weight: 700;
 }
 
@@ -116,21 +116,29 @@ li a {
 }
 
 footer {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
-.container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    height: 100vh;
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
 }
 
-.container img {
-    max-width: 70%;
-    max-height: 70%;
+/*
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  margin: 30%;
 }
+
 
 /*
 
@@ -186,7 +194,7 @@ header {
 
 */
 
-  /*
+/*
 .logo {
     width: 70px;
     height: 75x;
@@ -198,22 +206,23 @@ header {
 /* Hover effekt */
 
 a:link {
-    color: #1d3fb3;
+  color: #1d3fb3;
 }
-  
-  /* visited link */
+
+/* visited link */
 a:visited {
-    color: #1d3fb3;
+  color: #1d3fb3;
 }
-  
-  /* mouse over link */
+
+/* mouse over link */
 a:hover {
-    color: #ff5101;
+  color: #ff5101;
 }
-  
-  /* selected link */
+
+/* selected link */
 a:active {
-    color: #ff5101;;
+  color: #ff5101;
+  ;
 }
 
 /* VIDEO */
@@ -222,7 +231,8 @@ a:active {
   position: relative;
   width: 500px;
   height: 300px;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio (change as needed) */
   overflow: hidden;
 }
 
